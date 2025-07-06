@@ -22,7 +22,7 @@ if __name__=='__main__':
         long_description_content_type='text/markdown',
         packages=find_packages(where="src"),
         package_dir={"": "src"},
-        python_requires=">=3.11",
+        python_requires=">=3.10",
         install_requires=[
             "flax",
             "gitpython",
